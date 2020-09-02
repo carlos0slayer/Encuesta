@@ -1,0 +1,569 @@
+{
+    "municipios": [
+        {
+            "id": "787",
+            "municipio": "Acuitzio",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "788",
+            "municipio": "Aguililla",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "789",
+            "municipio": "Álvaro Obregón",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "790",
+            "municipio": "Angamacutiro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "791",
+            "municipio": "Angangueo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "792",
+            "municipio": "Apatzingán",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "793",
+            "municipio": "Aporo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "794",
+            "municipio": "Aquila",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "795",
+            "municipio": "Ario",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "796",
+            "municipio": "Arteaga",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "797",
+            "municipio": "Briseñas",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "798",
+            "municipio": "Buenavista",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "799",
+            "municipio": "Carácuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "800",
+            "municipio": "Coahuayana",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "801",
+            "municipio": "Coalcomán de Vázquez Pallares",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "802",
+            "municipio": "Coeneo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "803",
+            "municipio": "Contepec",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "804",
+            "municipio": "Copándaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "805",
+            "municipio": "Cotija",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "806",
+            "municipio": "Cuitzeo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "807",
+            "municipio": "Charapan",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "808",
+            "municipio": "Charo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "809",
+            "municipio": "Chavinda",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "810",
+            "municipio": "Cherán",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "811",
+            "municipio": "Chilchota",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "812",
+            "municipio": "Chinicuila",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "813",
+            "municipio": "Chucándiro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "814",
+            "municipio": "Churintzio",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "815",
+            "municipio": "Churumuco",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "816",
+            "municipio": "Ecuandureo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "817",
+            "municipio": "Epitacio Huerta",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "818",
+            "municipio": "Erongarícuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "819",
+            "municipio": "Gabriel Zamora",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "820",
+            "municipio": "Hidalgo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "821",
+            "municipio": "La Huacana",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "822",
+            "municipio": "Huandacareo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "823",
+            "municipio": "Huaniqueo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "824",
+            "municipio": "Huetamo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "825",
+            "municipio": "Huiramba",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "826",
+            "municipio": "Indaparapeo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "827",
+            "municipio": "Irimbo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "828",
+            "municipio": "Ixtlán",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "829",
+            "municipio": "Jacona",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "830",
+            "municipio": "Jiménez",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "831",
+            "municipio": "Jiquilpan",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "832",
+            "municipio": "Juárez",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "833",
+            "municipio": "Jungapeo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "834",
+            "municipio": "Lagunillas",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "835",
+            "municipio": "Madero",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "836",
+            "municipio": "Maravatío",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "837",
+            "municipio": "Marcos Castellanos",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "838",
+            "municipio": "Lázaro Cárdenas",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "839",
+            "municipio": "Morelia",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "840",
+            "municipio": "Morelos",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "841",
+            "municipio": "Múgica",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "842",
+            "municipio": "Nahuatzen",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "843",
+            "municipio": "Nocupétaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "844",
+            "municipio": "Nuevo Parangaricutiro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "845",
+            "municipio": "Nuevo Urecho",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "846",
+            "municipio": "Numarán",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "847",
+            "municipio": "Ocampo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "848",
+            "municipio": "Pajacuarán",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "849",
+            "municipio": "Panindícuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "850",
+            "municipio": "Parácuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "851",
+            "municipio": "Paracho",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "852",
+            "municipio": "Pátzcuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "853",
+            "municipio": "Penjamillo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "854",
+            "municipio": "Peribán",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "855",
+            "municipio": "La Piedad",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "856",
+            "municipio": "Purépero",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "857",
+            "municipio": "Puruándiro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "858",
+            "municipio": "Queréndaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "859",
+            "municipio": "Quiroga",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "860",
+            "municipio": "Cojumatlán de Régules",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "861",
+            "municipio": "Los Reyes",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "862",
+            "municipio": "Sahuayo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "863",
+            "municipio": "San Lucas",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "864",
+            "municipio": "Santa Ana Maya",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "865",
+            "municipio": "Salvador Escalante",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "866",
+            "municipio": "Senguio",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "867",
+            "municipio": "Susupuato",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "868",
+            "municipio": "Tacámbaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "869",
+            "municipio": "Tancítaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "870",
+            "municipio": "Tangamandapio",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "871",
+            "municipio": "Tangancícuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "872",
+            "municipio": "Tanhuato",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "873",
+            "municipio": "Taretan",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "874",
+            "municipio": "Tarímbaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "875",
+            "municipio": "Tepalcatepec",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "876",
+            "municipio": "Tingambato",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "877",
+            "municipio": "Tingüindín",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "878",
+            "municipio": "Tiquicheo de Nicolás Romero",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "879",
+            "municipio": "Tlalpujahua",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "880",
+            "municipio": "Tlazazalca",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "881",
+            "municipio": "Tocumbo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "882",
+            "municipio": "Tumbiscatío",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "883",
+            "municipio": "Turicato",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "884",
+            "municipio": "Tuxpan",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "885",
+            "municipio": "Tuzantla",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "886",
+            "municipio": "Tzintzuntzan",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "887",
+            "municipio": "Tzitzio",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "888",
+            "municipio": "Uruapan",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "889",
+            "municipio": "Venustiano Carranza",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "890",
+            "municipio": "Villamar",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "891",
+            "municipio": "Vista Hermosa",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "892",
+            "municipio": "Yurécuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "893",
+            "municipio": "Zacapu",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "894",
+            "municipio": "Zamora",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "895",
+            "municipio": "Zináparo",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "896",
+            "municipio": "Zinapécuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "897",
+            "municipio": "Ziracuaretiro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "898",
+            "municipio": "Zitácuaro",
+            "estado": "Michoacán de Ocampo"
+        },
+        {
+            "id": "899",
+            "municipio": "José Sixto Verduzco",
+            "estado": "Michoacán de Ocampo"
+        }
+    ]
+}
