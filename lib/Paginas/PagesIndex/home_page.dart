@@ -8,10 +8,25 @@ import 'package:siegeestappv1/Paginas/PagesIndex/profilePage.dart';
 import 'package:siegeestappv1/Paginas/login.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({
-    this.nombre,
-  });
+  HomePage(
+      {this.nombre,
+      this.ciudad,
+      this.username,
+      this.apellidoPaterno,
+      this.apellidoMaterno,
+      this.fechaNacimiento,
+      this.direccion,
+      this.telefono,
+      this.imagen});
   String nombre;
+  String ciudad;
+  String username;
+  String apellidoPaterno;
+  String apellidoMaterno;
+  String fechaNacimiento;
+  String direccion;
+  String telefono;
+  String imagen;
   final List<BarItem> barItems = [
     BarItem(
       text: "Inicio",
@@ -38,7 +53,16 @@ class _HomePageState extends State<HomePage> {
   //Paginas
   final IndexPage _paginaHome = IndexPage(nombre: nombre);
   final NotificacionesPage _paginaNotificaciones = NotificacionesPage();
-  final PerfilPage _paginaPerfil = PerfilPage();
+  final PerfilPage _paginaPerfil = PerfilPage(
+      ciudad: ciudad,
+      username: username,
+      nombre: nombre,
+      apellidoPaterno: apellidoPaterno,
+      apellidoMaterno: apellidoMaterno,
+      fechaNacimiento: fechaNacimiento,
+      direccion: direccion,
+      telefono: telefono,
+      imagen: imagen);
 
   Widget _showPage = new IndexPage();
 

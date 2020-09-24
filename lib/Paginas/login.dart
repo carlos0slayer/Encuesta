@@ -13,7 +13,15 @@ class LoginPage extends StatefulWidget {
   _LoginPageState createState() => _LoginPageState();
 }
 
+String username = '';
 String nombre = '';
+String ciudad = '';
+String apellidoMaterno = '';
+String apellidoPaterno = '';
+String fechaNacimiento = '';
+String direccion = '';
+String telefono = '';
+String imagen = '';
 
 class _LoginPageState extends State<LoginPage> {
   TextEditingController codigoAcceso = new TextEditingController();
@@ -27,18 +35,34 @@ class _LoginPageState extends State<LoginPage> {
     var datauser = jsonDecode(response.body);
     if (datauser.length == 0) {
       setState(() {
-        msg = 'Usuario o Contraseña Incorrectos';
+        msg = 'Codigo No valido';
       });
     } else {
       if (datauser[0]['level'] == 'admin') {
         Navigator.of(context).push(MaterialPageRoute(
           builder: (context) => HomePage(
             nombre: nombre,
+            ciudad: ciudad,
+            username: username,
+            apellidoMaterno: apellidoMaterno,
+            apellidoPaterno: apellidoPaterno,
+            fechaNacimiento: fechaNacimiento,
+            direccion: direccion,
+            telefono: telefono,
+            imagen: imagen,
           ),
         ));
       } else if (datauser[0]['level'] == 'invitado') {}
       setState(() {
         nombre = datauser[0]['nombre'];
+        ciudad = datauser[0]['ciudad'];
+        username = datauser[0]['username'];
+        apellidoPaterno = datauser[0]['apellidoPaterno'];
+        apellidoMaterno = datauser[0]['apellidoMaterno'];
+        fechaNacimiento = datauser[0]['fechaNacimiento'];
+        direccion = datauser[0]['direccion'];
+        telefono = datauser[0]['telefono'];
+        imagen = datauser[0]['image'];
       });
     }
 
@@ -116,7 +140,7 @@ class _LoginPageState extends State<LoginPage> {
                                 Container(
                                   padding: EdgeInsets.all(8.0),
                                   decoration: BoxDecoration(border: Border()),
-                                  child: TextField(
+                                  child: TextFormField(
                                     controller: codigoAcceso,
                                     decoration: InputDecoration(
                                         border: InputBorder.none,

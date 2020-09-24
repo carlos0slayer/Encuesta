@@ -364,6 +364,9 @@ class _Nuevo_BeneficiarioState extends State<Nuevo_Beneficiario> {
   TextEditingController _obtenercurp = new TextEditingController();
   TextEditingController _numeroCel = new TextEditingController();
   TextEditingController _calle = new TextEditingController();
+  TextEditingController _colonia = new TextEditingController();
+  TextEditingController _ocupacion = new TextEditingController();
+  TextEditingController _personas18 = new TextEditingController();
   TextEditingController _numeroExterior = new TextEditingController();
   TextEditingController _numeroInterior = new TextEditingController();
   TextEditingController _codigoPostal = new TextEditingController();
@@ -430,6 +433,8 @@ class _Nuevo_BeneficiarioState extends State<Nuevo_Beneficiario> {
                   _cpInput(),
                   Divider(),
                   _calleInput(),
+                  Divider(),
+                  _coloniaInput(),
                   Divider(),
                   _numeroextInput(),
                   Divider(),
@@ -674,6 +679,38 @@ class _Nuevo_BeneficiarioState extends State<Nuevo_Beneficiario> {
     );
   }
 
+  Widget _coloniaInput() {
+    return TextFormField(
+      autofocus: false,
+      controller: _colonia,
+      textCapitalization: TextCapitalization.sentences,
+      decoration: InputDecoration(
+        focusedBorder: OutlineInputBorder(
+            borderSide:
+                BorderSide(color: Color.fromRGBO(0, 24, 58, 1), width: 2.0),
+            borderRadius: BorderRadius.circular(20.0)),
+        enabledBorder: OutlineInputBorder(
+            borderSide:
+                BorderSide(color: Color.fromRGBO(24, 122, 123, 3), width: 2.0),
+            borderRadius: BorderRadius.circular(20.0)),
+        hintText: 'Colonia del Beneficiario',
+        labelText: 'Colonia',
+        labelStyle: TextStyle(color: Color.fromRGBO(24, 122, 123, 3)),
+        suffixIcon: Icon(
+          Icons.streetview,
+          color: Color.fromRGBO(24, 122, 123, 3),
+        ),
+      ),
+      validator: (value) {
+        if (value.length < 3) {
+          return 'Porfavor Ingrese la Colonia';
+        } else {
+          return null;
+        }
+      },
+    );
+  }
+
   Widget _calleInput() {
     return TextFormField(
       autofocus: false,
@@ -790,6 +827,71 @@ class _Nuevo_BeneficiarioState extends State<Nuevo_Beneficiario> {
       validator: (value) {
         if (value.length < 3) {
           return 'Porfavor Ingrese una referencia';
+        } else {
+          return null;
+        }
+      },
+    );
+  }
+
+  Widget _ocupacionInput() {
+    return TextFormField(
+      autofocus: false,
+      controller: _ocupacion,
+      textCapitalization: TextCapitalization.sentences,
+      decoration: InputDecoration(
+        focusedBorder: OutlineInputBorder(
+            borderSide:
+                BorderSide(color: Color.fromRGBO(0, 24, 58, 1), width: 2.0),
+            borderRadius: BorderRadius.circular(20.0)),
+        enabledBorder: OutlineInputBorder(
+            borderSide:
+                BorderSide(color: Color.fromRGBO(24, 122, 123, 3), width: 2.0),
+            borderRadius: BorderRadius.circular(20.0)),
+        hintText: 'Ocupacion',
+        labelText: '¿A que te dedicas?',
+        labelStyle: TextStyle(color: Color.fromRGBO(24, 122, 123, 3)),
+        suffixIcon: Icon(
+          Icons.streetview,
+          color: Color.fromRGBO(24, 122, 123, 3),
+        ),
+      ),
+      validator: (value) {
+        if (value.length < 3) {
+          return 'Porfavor Ingrese la ocupacion';
+        } else {
+          return null;
+        }
+      },
+    );
+  }
+
+  Widget _personas18Input() {
+    return TextFormField(
+      autofocus: false,
+      controller: _personas18,
+      textCapitalization: TextCapitalization.sentences,
+      keyboardType: TextInputType.number,
+      decoration: InputDecoration(
+        focusedBorder: OutlineInputBorder(
+            borderSide:
+                BorderSide(color: Color.fromRGBO(0, 24, 58, 1), width: 2.0),
+            borderRadius: BorderRadius.circular(20.0)),
+        enabledBorder: OutlineInputBorder(
+            borderSide:
+                BorderSide(color: Color.fromRGBO(24, 122, 123, 3), width: 2.0),
+            borderRadius: BorderRadius.circular(20.0)),
+        hintText: 'Personas Mayores de 18 años',
+        labelText: '¿Cuántas personas mayores a 18 años viven en su casa?',
+        labelStyle: TextStyle(color: Color.fromRGBO(24, 122, 123, 3)),
+        suffixIcon: Icon(
+          Icons.streetview,
+          color: Color.fromRGBO(24, 122, 123, 3),
+        ),
+      ),
+      validator: (value) {
+        if (value.length < 3) {
+          return 'Porfavor Ingrese la cantidad';
         } else {
           return null;
         }
