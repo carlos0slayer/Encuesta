@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293573348704",
+    "firebase_url": "https://curpvision.firebaseio.com",
+    "project_id": "curpvision",
+    "storage_bucket": "curpvision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293573348704:android:775f4a319058e02229a205",
+        "android_client_info": {
+          "package_name": "com.example.siegeestappv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293573348704-oamk3b1l01jto7dnhroul149qq6u1blh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siegeestappv1",
+            "certificate_hash": "aba679365f891acc6c69a9bb009096c5bece3a69"
+          }
+        },
+        {
+          "client_id": "293573348704-e4fv29mj5tls2pnddnio44i9ruphe3cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Go6YH0ho0xB6vI8pHoaWSyhwlA2kOVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293573348704-e4fv29mj5tls2pnddnio44i9ruphe3cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
