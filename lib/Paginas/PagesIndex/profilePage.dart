@@ -244,34 +244,6 @@ class _PerfilPageState extends State<PerfilPage> {
     );
   }
 
-  Widget _cerrarSesion() {
-    return Positioned(
-      top: 700,
-      child: Container(
-        margin: EdgeInsets.all(20.0),
-        height: 50,
-        width: MediaQuery.of(context).size.width * 0.90,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-            gradient: LinearGradient(colors: [
-              Color.fromRGBO(104, 32, 69, .8),
-              Color.fromRGBO(104, 32, 69, .8),
-            ])),
-        child: FlatButton(
-          child: Text(
-            "Cerrar Sesión",
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-          ),
-          onPressed: () {
-            Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => LoginPage(),
-            ));
-          },
-        ),
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -288,7 +260,6 @@ class _PerfilPageState extends State<PerfilPage> {
               _greenColors(),
               _getInfo(),
               _userAdress(),
-              _cerrarSesion(),
             ],
           ),
         ),
