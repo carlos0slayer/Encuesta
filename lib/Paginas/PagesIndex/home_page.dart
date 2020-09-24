@@ -5,18 +5,19 @@ import 'package:siegeestappv1/Paginas/PagesIndex/chatPage.dart';
 import 'package:siegeestappv1/Paginas/PagesIndex/indexPage.dart';
 import 'package:siegeestappv1/Paginas/PagesIndex/notificationPage.dart';
 import 'package:siegeestappv1/Paginas/PagesIndex/profilePage.dart';
+import 'package:siegeestappv1/Paginas/login.dart';
 
 class HomePage extends StatefulWidget {
+  HomePage({
+    this.nombre,
+  });
+  String nombre;
   final List<BarItem> barItems = [
     BarItem(
       text: "Inicio",
       iconos: FontAwesomeIcons.home,
-      color: Color.fromRGBO(98, 163, 164, 1),
+      color: Color.fromRGBO(24, 122, 123, 3),
     ),
-    BarItem(
-        text: "Mensajes",
-        iconos: FontAwesomeIcons.mailBulk,
-        color: Color.fromRGBO(255, 197, 38, 1)),
     BarItem(
         text: "Notificaciones",
         iconos: FontAwesomeIcons.bell,
@@ -35,8 +36,7 @@ class _HomePageState extends State<HomePage> {
   int selectedBarIndex = 0;
 
   //Paginas
-  final IndexPage _paginaHome = IndexPage();
-  final ChatPage _paginaChat = ChatPage();
+  final IndexPage _paginaHome = IndexPage(nombre: nombre);
   final NotificacionesPage _paginaNotificaciones = NotificacionesPage();
   final PerfilPage _paginaPerfil = PerfilPage();
 
@@ -48,12 +48,9 @@ class _HomePageState extends State<HomePage> {
         return _paginaHome;
         break;
       case 1:
-        return _paginaChat;
-        break;
-      case 2:
         return _paginaNotificaciones;
         break;
-      case 3:
+      case 2:
         return _paginaPerfil;
         break;
     }
@@ -64,11 +61,11 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: AnimatedContainer(
         child: _showPage,
-        duration: const Duration(milliseconds: 500),
+        duration: const Duration(milliseconds: 700),
       ),
       bottomNavigationBar: AnimatedBottomBar(
         barItems: widget.barItems,
-        animationDuration: const Duration(milliseconds: 200),
+        animationDuration: const Duration(milliseconds: 550),
         onBarTap: (index) {
           setState(() {
             _showPage = _pageChooser(index);

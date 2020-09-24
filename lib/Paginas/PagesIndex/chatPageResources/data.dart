@@ -7,8 +7,8 @@ List<StoryModel> getStories() {
   List<StoryModel> stories = new List();
   StoryModel storyModel = new StoryModel();
 
-  storyModel.imgUrl = "assets/images/chica4.png";
-  storyModel.userName = "Gabriela";
+  storyModel.imgUrl = "assets/images/chico1.png";
+  storyModel.userName = "Alberto";
   stories.add(storyModel);
   storyModel = new StoryModel();
 
@@ -17,8 +17,8 @@ List<StoryModel> getStories() {
   stories.add(storyModel);
   storyModel = new StoryModel();
 
-  storyModel.imgUrl = "assets/images/chica2.png";
-  storyModel.userName = "Laura";
+  storyModel.imgUrl = "assets/images/chico2.png";
+  storyModel.userName = "Luis";
   stories.add(storyModel);
   storyModel = new StoryModel();
 
@@ -27,8 +27,8 @@ List<StoryModel> getStories() {
   stories.add(storyModel);
   storyModel = new StoryModel();
 
-  storyModel.imgUrl = "assets/images/chica5.png";
-  storyModel.userName = "Karolina";
+  storyModel.imgUrl = "assets/images/chico3.png";
+  storyModel.userName = "Lic. Armando";
   stories.add(storyModel);
   storyModel = new StoryModel();
 
@@ -40,8 +40,8 @@ List<ChatModel> getChats() {
   ChatModel chatModel = new ChatModel();
 
 //1
-  chatModel.name = "Ana";
-  chatModel.imgUrl = "assets/images/chica1.png";
+  chatModel.name = "Alberto";
+  chatModel.imgUrl = "assets/images/chico1.png";
   chatModel.lastMessage =
       "Hola, te envio la ultima informacion de los datos que me pediste";
   chatModel.lastSeenTime = "5m";
@@ -62,8 +62,8 @@ List<ChatModel> getChats() {
   chatModel = new ChatModel();
 
 //3
-  chatModel.name = "Yaneth";
-  chatModel.imgUrl = "assets/images/chica3.png";
+  chatModel.name = "Luis";
+  chatModel.imgUrl = "assets/images/chico2.png";
   chatModel.lastMessage =
       "Me puedes pasar enviar el documento de los Codigos Postales porfavor?";
   chatModel.lastSeenTime = "5m";

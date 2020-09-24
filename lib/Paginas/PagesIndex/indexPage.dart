@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:siegeestappv1/Paginas/Animation/FadeAnimation.dart';
 import 'package:siegeestappv1/Paginas/PagesIndex/indexPageResources/nuevo_beneficiario.dart';
+import 'package:siegeestappv1/Paginas/login.dart';
 
 class IndexPage extends StatefulWidget {
+  IndexPage({this.nombre});
+  var nombre;
   @override
   _IndexPageState createState() => _IndexPageState();
 }
@@ -22,7 +25,7 @@ class _IndexPageState extends State<IndexPage> {
                 decoration: BoxDecoration(
                     gradient: LinearGradient(colors: [
                   Color.fromRGBO(98, 163, 164, 1),
-                  Color.fromRGBO(109, 182, 184, 13),
+                  Color.fromRGBO(24, 122, 123, 3),
                 ])),
                 child: Container(
                   margin: EdgeInsets.only(right: 40, top: 20, bottom: 20),
@@ -46,7 +49,7 @@ class _IndexPageState extends State<IndexPage> {
                   alignment: Alignment.centerLeft,
                   padding: EdgeInsets.all(20),
                   child: Text(
-                    "Hola Luciano!",
+                    "Hola $nombre!",
                     style: TextStyle(
                         fontSize: 40,
                         fontWeight: FontWeight.w700,
@@ -87,7 +90,7 @@ class _IndexPageState extends State<IndexPage> {
                     crossAxisCount: 2,
                     childAspectRatio: 0.85,
                     children: <Widget>[
-                      categoryWidget('beneficiario2', "Nuevo Beneficiario"),
+                      categoryWidget('encuesta', "Nueva Encuesta"),
                       categoryWidget2('info2', "Información de usuario"),
                     ],
                   ),
